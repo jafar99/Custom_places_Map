@@ -59,3 +59,26 @@
   border-color: #0066ff;
   box-shadow: 0 0 5px #0066ff;
 }
+
+
+.dropdown-container1 {
+  position: absolute;
+  top: 11px;
+  left: 35rem;
+  z-index: 1000;
+}
+
+.dropdown-container1 select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.dropdown-container1 select:focus {
+  outline: none;
+  border-color: #0066ff;
+  box-shadow: 0 0 5px #0066ff;
+}
