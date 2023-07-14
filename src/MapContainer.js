@@ -25,6 +25,7 @@ const MapContainer = (props) => {
   };
 
   const allStates = [
+    'All Sites',
     'Andaman and Nicobar Islands',
     'Andhra Pradesh',
     'Arunachal Pradesh',
@@ -85,10 +86,7 @@ const MapContainer = (props) => {
         </div>
 
         {customPlaces.map((place, index) => {
-          if (
-            selectedState &&
-            place.state.toLowerCase() === selectedState.toLowerCase()
-          ) {
+          if (selectedState === 'All Sites' || place.state.toLowerCase() === selectedState.toLowerCase()) {
             return (
               <Marker
                 key={index}
