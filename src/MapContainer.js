@@ -918,6 +918,7 @@ const MapContainer = (props) => {
           </select>
         </div>
 
+        
         {customPlaces.map((place, index) => {
           if (
             (selectedState === "" ||
